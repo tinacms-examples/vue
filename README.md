@@ -12,6 +12,9 @@ This repository demonstrates how to integrate [TinaCMS](https://tina.io/) with [
 - **Markdown & MDX Support** – Store content in a Git-based CMS with flexible formats.
 - **Media Management** – Upload and manage images and assets directly from the CMS.
 
+![visual-editing-nuxt](https://github.com/user-attachments/assets/5648b0d2-c72a-4ead-80cd-12b9d8eba4d6)
+**Figure: Posts with Visual Editing** 
+
 ## 🛠 Getting Started
 
 ### 1️⃣ Install Dependencies
