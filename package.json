@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "tinacms dev -c \"nuxt dev\"",
     "build": "tinacms build && nuxt build",
-    "generate": "nuxt generate",
+    "generate": "tinacms build && nuxt generate",
     "preview": "tinacms build && nuxt preview",
     "postinstall": "nuxt prepare"
   },
