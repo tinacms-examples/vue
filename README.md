@@ -1,4 +1,4 @@
-# Nuxt + TinaCMS Starter
+# Nuxt + TinaCMS Example
 
 > [!IMPORTANT]
 > This is an experimental demo showcasing Nuxt + TinaCMS. Features and implementation details may change at any time.
