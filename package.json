@@ -7,7 +7,7 @@
   "build": "tinacms build && nuxt build",
   "generate": "tinacms build && nuxt generate",
   "preview": "tinacms build && nuxt preview",
-  "postinstall": "tinacms build && nuxt prepare"
+  "postinstall": "nuxt prepare"
 },
   "dependencies": {
     "date-fns": "^4.1.0",
