@@ -27,6 +27,10 @@ import type { MarkdownElement } from "~/components/TinaNode.vue";
 const route = useRoute();
 const postSlug = route.params.id;
 
+definePageMeta({
+  prerender: true
+});
+
 const postResponse = await client.queries.post({ relativePath: `${postSlug}.mdx` });
 
 const { data } = useTina({
