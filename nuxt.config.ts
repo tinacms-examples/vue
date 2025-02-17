@@ -1,5 +1,3 @@
-import client from "./tina/__generated__/client";
-
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   runtimeConfig: {
@@ -21,6 +19,7 @@ export default defineNuxtConfig({
   hooks: {
     async "prerender:routes"(ctx) {
       // Fetch all post slugs at build time
+      const { client } = await import("./tina/__generated__/client");
       const postsResponse = await client.queries.postConnection();
 
       // Extract slugs
